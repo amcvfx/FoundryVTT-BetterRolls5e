@@ -1153,7 +1153,7 @@ export class CustomItemRoll {
 		let itemData = itm.data.data,
 			rollData = duplicate(itm.actor.data.data),
 			abl = itemData.ability,
-			flags = itm.data.flags.betterRolls5e,
+			flags = this.itemFlags.betterRolls5e,
 			damageFormula,
 			damageType = itemData.damage.parts[damageIndex][1],
 			isVersatile = false,
